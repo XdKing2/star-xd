@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Transformers&size=80&pause=1000&color=0000FF&center=true&width=1000&height=150&lines=ZENTHRA-BOT;+BY+MALVIN+KING" alt="Typing SVG - ZENTHRA-BOT" />
+    <img src="https://ik.imagekit.io/rmlbayysp/1750662820323-download_hNcVggM8e.jpg" />
 </div>
 
 ---
