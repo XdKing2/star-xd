@@ -1,0 +1,34 @@
+
+{
+    "bot-name": "star-xd",
+    "description": "STAR XD made for people on Earth By Malvin",
+    "logo": "",
+    "keywords": ["bot"],
+    "documentation-link": "",
+    "owner-verification":"malvintech2@gmail.com",
+  
+"env": {
+      "SESSION_ID": {
+        "description": "Put your SESSION_ID here. Make sure it starts with malvin~, or get session id from here, ",
+        "value":"",
+        "required": true
+        
+        },
+    "OWNER_NUMBER": {
+      "description": "Enter your number here, starting with country code E.g 263xxxxxxxx",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Enter your name here",
+      "value": "",
+      "required": true
+    },
+    "TIMEZONE": {
+      "description": "Enter your timezone here. Google or don't edit if you don't know!",
+      "value": "Africa/Harare",
+      "required": false
+    }
+    }
+  
+  }  
