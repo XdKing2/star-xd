@@ -1,50 +1,54 @@
 {
-  "name": "sᴛᴀʀ xᴅ",
-  "description": "This is a bot for managing group commands and automating tasks.",
+  "name": "star-xd",
+  "description": " Whatsapp automation",
+  "keywords": [
+    "whatsapp Bot"
+  ],
   "repository": "https://github.com/XdKing2/star-xd",
-  "logo": "https://i.ibb.co/bjTC9sF5/malvin-xd.jpg",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "automation"],
-  "success_url": "/",
+  "stack": "container",
   "env": {
-    "BOT_NAME": {
-      "description": "Name of your bot",
-      "value": "sᴛᴀʀ xᴅ",
-      "required": true
+    "MONGO_URL": {
+      "description": "Put if you have mongodb database url",
+      "required": false,
+      "value": ""
     },
-    "OWNER_NAME": {
-      "description": "Name of the bot owner",
-      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
-      "required": true
+    "MYSQL_URL": {
+      "description": "Put if you have mysql database url",
+      "required": false,
+      "value": ""
     },
-    "OWNER_NUMBER": {
-      "description": "Owner's phone number with country code",
-      "value": "1234567890",
-      "required": true
+    "POSTGRES_URL": {
+      "description": "Put if you have postgres database url",
+      "required": false,
+      "value": ""
+    },
+     "HKEY": {
+      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name, same as above entered",
+      "required": true,
+      "value": ""
     },
     "SESSION_ID": {
-      "description": "Session ID for the bot",
-      "value": "add ur session id here",
-      "required": true
+      "description": "Put your session id",
+      "required": true,
+      "value": ""
     },
-    "TIMEZONE": {
-      "description": "Your timezone",
-      "value": "Africa/Harare",
-      "required": true
-    },
-    "MODE": {
-      "description": "Bot operation mode",
-      "value": "public",
-      "required": true
-    },
-    "GIPHY_API_KEY": {
-      "description": "Giphy API key",
-      "value": "qnl7ssQChTdPjsKta2Ax2LMaGXz303tq",
-      "required": false
+     "REMOVEBG_KEY": {
+      "description": "Put your Remove background api key",
+      "required": false,
+      "value": ""
     }
-  },
-  "buildpacks": [
+    },
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -56,7 +60,7 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "free"
+      "size": "basic"
     }
   }
 }
