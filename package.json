@@ -1,6 +1,6 @@
 
 {
-  "name": "star",
+  "name": "DARK-BOT",
   "version": "3.0.0",
   "description": "WhatsApp Bot",
   "main": "index.js",
@@ -29,21 +29,21 @@
     "whatsapp-api",
     "baileys-bot",
     "whatsApp",
-    "star-bot",
-    "star-xd",
+    "dark-bot",
+    "dark-xd",
     "multi-device",
-    "star-ai"
+    "dark-ai"
   ],
-  "homepage": "https://github.com/XdKing2/star-xd",
+  "homepage": "https://github.com/darkxd652/darkxz-xd",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XdKing2/star-xd.git"
+    "url": "git+https://github.com/darkxd652/darkxz-xd.git"
   },
   "bugs": {
-    "url": "https://github.com/XdKing2/star-xd/issues"
+    "url": "https://github.com/darkxd652/darkxz-xd/issues"
   },
   "license": "MIT",
-  "author": "mr xdking",
+  "author": "DARK-BOT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
@@ -111,6 +111,6 @@
     "node": ">=20.0.0"
   },
   "contributors": 
-  {"name": "Malvin King","role": "Developer"}
+  {"name": "DARK-X HACKER ","role": "Developer"}
   
 }
