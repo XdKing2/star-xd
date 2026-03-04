@@ -2,9 +2,9 @@
 {
     "bot-name": "star-xd",
     "description": "STAR XD made for people on Earth By Malvin",
-    "logo": "",
+    "logo": "https://files.catbox.moe/m7cmfe.jpg",
     "keywords": ["bot"],
-    "documentation-link": "",
+    "documentation-link": "pair.malvintech.sbs",
     "owner-verification":"malvintech2@gmail.com",
   
 "env": {
