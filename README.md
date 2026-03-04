@@ -42,12 +42,12 @@ _Click the button below to fork STAR XD repository to your GitHub account_
 
 > 2. ɢᴇᴛ ᴘᴀɪʀ sᴇssɪᴏɴ_ɪᴅ
 
-[![Starcore Session](https://img.shields.io/badge/Session%20App-000000?style=for-the-badge&logo=react&logoColor=white)](https://starcore-pairing.onrender.com/pair/)
+[![Starcore Session](https://img.shields.io/badge/Session%20App-000000?style=for-the-badge&logo=react&logoColor=white)](https://pair.malvintech.sbs)
 
 
 > sᴇssɪᴏɴ ɪᴅ sᴇʀᴠᴇʀ 2
 
-[![Get Pairing Code](https://img.shields.io/badge/Get%20Pairing%20Code2-green?style=for-the-badge&logo=opencv&logoColor=black)](https://starcore-pair.vercel.app/)
+[![Get Pairing Code](https://img.shields.io/badge/Get%20Pairing%20Code2-green?style=for-the-badge&logo=opencv&logoColor=black)](https://pair.malvin.gleeze.com)
 
 > 3.  ᴅᴏᴡɴʟᴏᴀᴅ ʙᴏᴛ ғɪʟᴇ
     
