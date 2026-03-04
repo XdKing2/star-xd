@@ -9,7 +9,7 @@
   
 "env": {
       "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with malvin~, or get session id from here, ",
+        "description": "Put your SESSION_ID here. Make sure it starts with starcore~, malvin~, or get session id from here, ",
         "value":"",
         "required": true
         
