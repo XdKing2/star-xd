@@ -56,7 +56,7 @@
     "better-sqlite3": "^12.5.0",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.12",
-    "discard-api": "^3.0.0",
+    
     "dotenv": "^16.4.5",
     "express": "^4.22.1",
     "file-type": "^16.5.4",
@@ -107,10 +107,14 @@
     },
     "jimp": "^1.6.0"
   },
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "contributors": 
-  {"name": "Malvin King","role": "Developer"}
   
+"engines": {
+  "node": "24.x"
+},
+"contributors": [
+  {
+    "name": "Malvin King",
+    "role": "Developer"
+  }
+]
 }
