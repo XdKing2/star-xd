@@ -7,7 +7,7 @@ module.exports = {
   PREFIXES: ['.', '!', '#'], // Multiple prefix support you can add one or more
   
   
-  SESSION_ID: '', // add your session ID
-  PAIRING_NUMBER: '', // In Case if you don't have session id get pairing code by putting your number here
+  SESSION_ID: 'king~Mq9iMp', // add your session ID
+  PAIRING_NUMBER: '2349036710711', // In Case if you don't have session id get pairing code by putting your number here
   TIMEZONE: 'Africa/Harare' // ur timezone
 };
