@@ -1,0 +1,66 @@
+{
+  "name": "star-xd",
+  "description": " Whatsapp automation",
+  "keywords": [
+    "whatsapp Bot"
+  ],
+  "repository": "https://github.com/XdKing2/star-xd",
+  "stack": "container",
+  "env": {
+    "MONGO_URL": {
+      "description": "Put if you have mongodb database url",
+      "required": false,
+      "value": ""
+    },
+    "MYSQL_URL": {
+      "description": "Put if you have mysql database url",
+      "required": false,
+      "value": ""
+    },
+    "POSTGRES_URL": {
+      "description": "Put if you have postgres database url",
+      "required": false,
+      "value": ""
+    },
+     "HKEY": {
+      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name, same as above entered",
+      "required": true,
+      "value": ""
+    },
+    "SESSION_ID": {
+      "description": "Put your session id",
+      "required": true,
+      "value": ""
+    },
+     "REMOVEBG_KEY": {
+      "description": "Put your Remove background api key",
+      "required": false,
+      "value": ""
+    }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
