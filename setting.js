@@ -1,13 +1,57 @@
-//=====💫 sᴛᴀʀ  xᴅ🔥====
+//=====💫 STAR XD 🔥====
 
 module.exports = {
-  BOT_NAME: 'sᴛᴀʀ xᴅ', // ur bot name
-  OWNER_NAME: 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ', //your name
-  OWNER_NUMBER: '263714757857', // add your phone number
-  PREFIXES: ['.', '!', '#'], // Multiple prefix support you can add one or more
-  
-  
-  SESSION_ID: '', // add your session ID
-  PAIRING_NUMBER: '', // In Case if you don't have session id get pairing code by putting your number here
-  TIMEZONE: 'Africa/Harare' // ur timezone
+  // PUT YOUR SESSION ID BELOW (Required)
+  // Get from: https://star.malvintech.sbs/
+  SESSION_ID: "",
+
+  // PUT YOUR REMOVE BACKGROUND KEY (Optional)
+  // Get from: https://remove.bg/api
+  REMOVEBG_KEY: "",
+
+  // If you don't have session id, use pairing code
+  // Put your WhatsApp number here (without +)
+  PAIRING_NUMBER: "",
+
+  // ===== DATABASE CONFIGURATION =====
+  // Leave empty to use JSON file storage
+  // Recommended for cloud platforms
+
+  // MongoDB URL (recommended for Heroku, Railway, etc.)
+  // Format: mongodb+srv://username:password@cluster.mongodb.net/dbname
+  MONGO_URL: "",
+
+  // PostgreSQL (Optional)
+  // Format: postgresql://username:password@localhost:5432/dbname
+  POSTGRES_URL: "",
+
+  // MySQL (Optional)
+  // Format: mysql://username:password@localhost:3306/dbname
+  MYSQL_URL: "",
+
+  // SQLite Path (Optional)
+  // Example: "./data/baileys.db"
+  DB_URL: "",
+
+  // Bot Prefix (default: .)
+  PREFIXES: ".",
+
+  // Bot Pack Name
+  PACKNAME: "sᴛᴀʀ-xᴅ",
+
+  // Bot Name
+  BOT_NAME: "sᴛᴀʀ-xᴅ",
+
+  // Add Owner WhatsApp Number (without +)
+  OWNER_NUMBER: "263725787000",
+
+  // Command Mode: "public" or "private"
+  // private = only owner can use commands
+  COMMAND_MODE: "private",
+
+  // Owner Name
+  BOT_OWNER: "ᴍʀ xᴅᴋɪɴɢ",
+
+  // Timezone
+  TIMEZONE: "Africa/Harare"
 };
