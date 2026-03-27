@@ -1,0 +1,6 @@
+{
+  "watch": ["."],
+  "ext": "js",
+  "ignore": ["node_modules", "data", "session", "temp", "logs", "coverage", "bin"],
+  "exec": "node index.js"
+}

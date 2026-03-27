@@ -1,0 +1,28 @@
+app = "star-xd"
+primary_region = "iad"
+
+[build]
+  dockerfile = "lib/Dockerfile"
+
+[env]
+  PORT = "5000"
+  BOT_NAME = "sᴛᴀʀ-xᴅ"
+  COMMAND_MODE = "public"
+  TIMEZONE = "Africa/Harare"
+  SESSION_ID = ""
+  OWNER_NUMBER = "26370000000"
+  MONGO_URL = ""
+  POSTGRES_URL = ""
+  MYSQL_URL = ""
+  DB_URL = ""
+
+[http_service]
+  internal_port = 5000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1

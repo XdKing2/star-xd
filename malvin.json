@@ -1,19 +1,16 @@
-
 {
-    "bot-name": "star-xd",
-    "description": "STAR XD made for people on Earth By Malvin",
-    "logo": "https://files.catbox.moe/m7cmfe.jpg",
-    "keywords": ["bot"],
-    "documentation-link": "https://pair.malvintech.sbs",
-    "owner-verification":"malvintech2@gmail.com",
-  
-"env": {
-      "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with starcore~, malvin~, or get session id from here, ",
-        "value":"",
-        "required": true
-        
-        },
+  "bot-name": "star-xd",
+  "description": "STAR XD made for people on Earth By Malvin",
+  "logo": "https://files.catbox.moe/m7cmfe.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://pair.malvintech.sbs",
+  "owner-verification": "malvintech2@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. Make sure it starts with king~, malvin~, or star~",
+      "value": "",
+      "required": true
+    },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 263xxxxxxxx",
       "value": "",
@@ -24,11 +21,30 @@
       "value": "",
       "required": true
     },
+    "MONGO_URL": {
+      "description": "MongoDB URL for persistent storage (recommended for cloud platforms)",
+      "value": "",
+      "required": false
+    },
+    "POSTGRES_URL": {
+      "description": "PostgreSQL URL for persistent storage (optional)",
+      "value": "",
+      "required": false
+    },
+    "MYSQL_URL": {
+      "description": "MySQL URL for persistent storage (optional)",
+      "value": "",
+      "required": false
+    },
+    "DB_URL": {
+      "description": "SQLite path for persistent storage (optional). Example: ./data/baileys.db",
+      "value": "",
+      "required": false
+    },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google or don't edit if you don't know!",
       "value": "Africa/Harare",
       "required": false
     }
-    }
-  
-  }  
+  }
+}
