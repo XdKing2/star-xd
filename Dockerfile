@@ -2,7 +2,7 @@ FROM node:20-bullseye-slim
 
 WORKDIR /root/star-xd
 
-# Install all build dependencies for native modules
+# Install system dependencies for sharp and other native modules
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     imagemagick \
@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
 # Copy package files
 COPY package.json package-lock.json ./
 
-# Install dependencies - sharp will build from source
+# Install dependencies
 RUN npm install --build-from-source
 
 # Copy loader
