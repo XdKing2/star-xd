@@ -1,6 +1,6 @@
 //=====💫 STAR XD 🔥====
 
-module.exports = {
+export default {
   // PUT YOUR SESSION ID BELOW (Required)
   // Get from: https://star.malvintech.sbs/
   SESSION_ID: "",
