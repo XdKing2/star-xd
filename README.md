@@ -65,7 +65,7 @@
 
 <div align="left">
 
-> **Server 1**
+> **Server 1 (fast)**
 
 [![Get Pairing Code](https://img.shields.io/badge/🔐%20GET%20PAIRING%20CODE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://star.malvintech.sbs/)
 
